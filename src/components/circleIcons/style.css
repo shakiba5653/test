@@ -1,0 +1,14 @@
+.circleIcons{
+    display:flex;
+    gap:10px;
+    padding: 0;
+}
+.circleIcons li{
+    width:20%;
+}
+.circleIcons li img{
+    border-radius: 50%;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 30%);
+}

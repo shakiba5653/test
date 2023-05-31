@@ -1,0 +1,17 @@
+.profileList{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.profileList .profilePhoto{
+    border-radius: 50%;
+    width:170px;
+    height:auto;
+}
+.profileList a{
+    color:#fff;
+}
+.profileList p{
+    text-align: center;
+    font-size:15px;
+}

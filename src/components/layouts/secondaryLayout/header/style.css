@@ -1,0 +1,18 @@
+#headerParts.secondHeader{
+    background-color: #fff;
+}
+a.exit{
+    color:#fff;
+    background-color: #1993ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size:14px;
+}
+.bigSearch{
+    width:40px;
+    height:auto;
+}
+.kidLogo{
+    width:140px;
+    height:auto
+}

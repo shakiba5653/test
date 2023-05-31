@@ -1,0 +1,16 @@
+h2.mediumListTitle{
+    color:#000
+}
+.movieBoxes li.movieBox.medium{
+    width:20%;
+}
+.movieBoxes li.movieBox.medium img{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 30%);
+}
+h3.title.medium{
+    color:#000
+}
+.movieBoxes .movieBox .imageContent .content .playIcon.medium{
+   transform: translate(-165px, -190px);
+}
+

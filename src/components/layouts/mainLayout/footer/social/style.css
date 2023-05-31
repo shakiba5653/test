@@ -1,0 +1,13 @@
+.container.socialMedia{
+    display:flex;
+    justify-content: space-between;
+}
+.container.socialMedia p{
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.container.socialMedia .icons{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+ul.menu{
+    display:flex;
+    gap:30px;
+}
+.menu li a{
+    font-size:13px;
+    color:#fff;
+}
+.menu li a:hover{
+    color:#6eb8ff;
+}

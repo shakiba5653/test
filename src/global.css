@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.containerFull{
+    width:100%;
+    padding:0 30px;
+}
+body{
+    direction:rtl;
+    margin:0;
+    background-color:#121212;
+    color:#fff;
+    padding-top:80px;
+}
+body.whiteBg{
+    background-color: #fff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}

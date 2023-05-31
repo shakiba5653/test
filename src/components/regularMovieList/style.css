@@ -1,0 +1,63 @@
+.movieBoxes{
+    display:flex;
+    gap:20px;
+    padding:10px 0;
+}
+.movieBoxes li.movieBox{
+    width:25%;
+}
+.movieBoxes li.movieBox a{
+    color:#fff;
+}
+.movieBoxes li.movieBox img{
+    width:100%;
+    height:auto;
+    border-radius: 5px;
+    display:block;
+}
+.movieBoxes .movieBox .imageContent{
+    position:relative;
+}
+.movieBoxes .movieBox .imageContent .content{
+    font-size:13px;
+    opacity:0;
+    position:absolute;
+    bottom:10px;
+    right:5px;
+    transition: all 0.5s;
+}
+.movieBoxes .movieBox .imageContent:after{
+    background: rgb(27, 26, 26);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    transition: all 0.5s;
+}
+.movieBoxes .movieBox .imageContent:hover:after{
+    opacity: 0.65; 
+}
+.movieBoxes .movieBox .imageContent:hover .content{
+    opacity:1;
+    z-index:2;
+}
+.movieBoxes .movieBox .imageContent .content .playIcon{
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:50px;
+    height:auto;
+    transform: translate(-110px, -150px);
+}
+.movieBoxes .movieBox .title{
+    font-size:14px;
+    margin-bottom:0;
+}
+.movieBoxes .movieBox .update{
+    color:#aaaaaa;
+    margin-top:3px;
+}

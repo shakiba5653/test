@@ -1,0 +1,25 @@
+.categories{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0;
+    row-gap: 15px;
+}
+.categories li{
+    width:25%;
+    padding: 0 10px;
+    position: relative;
+}
+.categories li h1{
+    position:absolute;
+    top:50%;
+    right:10%;
+}
+.categories li a{
+    color:#fff;
+}
+.categories li img{
+    border-radius: 5px;
+    width:100%;
+    height:auto;
+    display:block
+}

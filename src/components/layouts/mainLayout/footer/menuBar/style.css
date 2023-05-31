@@ -1,0 +1,26 @@
+.container{
+    max-width:1145px;
+    margin:0 auto;
+} 
+a{
+    display:block;
+    text-decoration: none;
+}
+.container.menuHolder{
+    display: flex;
+    justify-content: space-between;
+}
+.menuBar{
+    background-color: #222327;
+}
+.menuBar li{
+    padding:10px 0
+}
+.menuBar li a{
+    color:#cccccc;
+    font-size: 13px;
+    font-weight:bold
+}
+.menuBar li a:hover{
+    color:#fff;
+}

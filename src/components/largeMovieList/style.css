@@ -1,0 +1,34 @@
+.red{
+    color:#e48c8c;
+}
+.live{
+    padding:10px 0;
+}
+.live ul{
+    display:flex;
+    gap:20px;
+    padding: 0;
+}
+.live ul li{
+    width:33.33%;
+} 
+.live ul li a{
+    color:#fff;
+}
+.live ul li img{
+    width:100%;
+    height:auto;
+    margin-bottom:-5px;
+    border-radius: 5px 5px 0 0;
+}
+.live ul li .info{
+    padding:10px 5px;
+    background-color: #222327;
+    border-radius: 0 0 5px 5px;
+}
+.live ul li .info p{
+    font-size:15px
+}
+.live ul li .info p:nth-child(1){
+    margin-top:0
+}
